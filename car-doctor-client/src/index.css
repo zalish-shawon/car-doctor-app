@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.loading-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh; /* Make it fill the viewport height */
+  }
+  
+  .loading.text-4xl {
+    font-size: 4rem; /* Adjust the font size to make it larger */
+  }
+  
+  /* Add any other styles you need for the loading element here */
+  
